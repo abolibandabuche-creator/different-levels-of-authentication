@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6d5d8, #fce7e1, #f9e6dc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+}
+
+h1 {
+  color: #6b3e3e;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+button {
+  background: linear-gradient(135deg, #e7a9a9, #f2c1b6);
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  color: #4a2c2c;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(231,169,169,0.4);
+}
+
+button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(231,169,169,0.6);
+  background: linear-gradient(135deg, #f2b8b8, #f7d1c8);
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #fff5f2;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.result-box h2 {
+  color: #7a4a4a;
+  margin-bottom: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 13px;
+  color: #5a3a3a;
+}

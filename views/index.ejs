@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Authentication</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Secrets API Playground ✨</h1>
+
+    <div class="btn-group">
+      <button onclick="window.location.href='/noAuth'">No Auth</button>
+      <button onclick="window.location.href='/basicAuth'">Basic Auth</button>
+      <button onclick="window.location.href='/apiKey'">API Key</button>
+      <button onclick="window.location.href='/bearerToken'">Bearer Token</button>
+    </div>
+
+    <% if (content) { %>
+      <div class="result-box">
+        <h2>Result 🌷</h2>
+        <pre><%=content %></pre>
+      </div>
+    <% } %>
+  </div>
+
+</body>
+</html>
