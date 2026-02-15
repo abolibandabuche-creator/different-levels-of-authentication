@@ -31,7 +31,7 @@ API-AUTHE/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/abolibandabuche-creator/different-levels-of-authentication.git
 cd API-AUTHE
 
 # Install dependencies
